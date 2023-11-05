@@ -1,11 +1,8 @@
 import streamlit as st
 import openai
 import time
-<<<<<<< HEAD
-=======
 import os
 import gtts
->>>>>>> 89601337 (Update clone.py)
 from dotenv import load_dotenv, find_dotenv
 import streamlit as st
 import pyttsx3
