@@ -24,10 +24,14 @@ def debate_bot_response(content, topic, difficulty):
     model='gpt-3.5-turbo',
     temperature=1,
 <<<<<<< HEAD
+<<<<<<< HEAD
     openai_api_key='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')
 =======
     openai_api_key='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')
 >>>>>>> 89601337 (Update clone.py)
+=======
+    openai_api_key='YOUR-OpenAI-APIKEY')
+>>>>>>> 115b4818 (Update clone.py)
 
     prompt = ChatPromptTemplate(
     input_variables=['content'],
