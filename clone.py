@@ -1,6 +1,11 @@
 import streamlit as st
 import openai
 import time
+<<<<<<< HEAD
+=======
+import os
+import gtts
+>>>>>>> 89601337 (Update clone.py)
 from dotenv import load_dotenv, find_dotenv
 import streamlit as st
 import pyttsx3
@@ -18,7 +23,11 @@ def debate_bot_response(content, topic, difficulty):
     llm = ChatOpenAI(
     model='gpt-3.5-turbo',
     temperature=1,
+<<<<<<< HEAD
     openai_api_key='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')
+=======
+    openai_api_key='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')
+>>>>>>> 89601337 (Update clone.py)
 
     prompt = ChatPromptTemplate(
     input_variables=['content'],
@@ -105,4 +114,8 @@ if prompt := st.chat_input("What is up?"):
         with st.chat_message("assistant"):
             st.markdown(responsee)
     # Add assistant response to chat history
+<<<<<<< HEAD
     st.session_state.messages.append({"role": "assistant", "content": responsee})
+=======
+    st.session_state.messages.append({"role": "assistant", "content": responsee})
+>>>>>>> 89601337 (Update clone.py)
