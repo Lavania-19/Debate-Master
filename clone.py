@@ -22,6 +22,7 @@ def debate_bot_response(content, topic, difficulty):
     temperature=1,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     openai_api_key='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')
 =======
     openai_api_key='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')
@@ -29,6 +30,9 @@ def debate_bot_response(content, topic, difficulty):
 =======
     openai_api_key='YOUR-OpenAI-APIKEY')
 >>>>>>> 115b4818 (Update clone.py)
+=======
+    openai_api_key='YOUR-OpenAI-APIKEY')
+>>>>>>> d810fd03 (Errors Removed - Files up to date)
 
     prompt = ChatPromptTemplate(
     input_variables=['content'],
@@ -116,7 +120,11 @@ if prompt := st.chat_input("What is up?"):
             st.markdown(responsee)
     # Add assistant response to chat history
 <<<<<<< HEAD
+<<<<<<< HEAD
     st.session_state.messages.append({"role": "assistant", "content": responsee})
 =======
     st.session_state.messages.append({"role": "assistant", "content": responsee})
 >>>>>>> 89601337 (Update clone.py)
+=======
+    st.session_state.messages.append({"role": "assistant", "content": responsee})
+>>>>>>> d810fd03 (Errors Removed - Files up to date)
