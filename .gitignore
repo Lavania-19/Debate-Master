@@ -2,3 +2,4 @@
 /Welcome.mp3
 venv/
 .devcontainer/
+.env/
