@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Debate-Master
 Debate Master is a web application powered by OpenAI's GPT-3.5 Turbo, offering users the ability to engage in dynamic debates on various topics. Set the difficulty level, pick a topic, and start a debate with the AI assistant. It's a platform for thought-provoking discussions
 =======
@@ -78,10 +77,4 @@ This codebase for Debate Master was primarily developed during Hackout 2023. Whi
 
 We believe in the spirit of transparency and want to acknowledge any pre-existing work that contributed to this project. Our goal was to create a meaningful project within the constraints of the hackathon while being open about its development process.
 
----
-
 Feel free to customize the `README.md` file further to add more details, information, or sections specific to your project's requirements.
-
-
-
->>>>>>> b0e7663d (Create README.md)
