@@ -1,2 +1,4 @@
 /Response.mp3
 /Welcome.mp3
+venv/
+.devcontainer/
