@@ -12,7 +12,7 @@ from langchain.prompts import ChatPromptTemplate, HumanMessagePromptTemplate
 llm = ChatOpenAI(
     model='gpt-3.5-turbo',
     temperature=1,
-    openai_api_key='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'
+    #openai_api_key='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'
 )
 
 difficulty = input("Enter difficulty (1-10): ")
